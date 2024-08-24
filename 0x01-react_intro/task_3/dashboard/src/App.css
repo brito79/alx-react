@@ -1,0 +1,46 @@
+:root {
+  --main-color: rgba(255, 0, 0, 0.922);
+  font: 1em Helvetica, Arial, sans-serif;
+  --element-height: 20px;
+}
+.App {
+  display: flex;
+  background-color: #ffffff;
+  flex-direction: column;
+  justify-content: center;
+
+
+}
+/*APP HEADER*/
+.App-header {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: start;
+  align-items: center;
+  color: var(--main-color);
+  border-bottom: 2px solid var(--main-color);
+}
+
+.app-logo {
+  width: 200px;
+  height: 200px;
+
+}
+
+/* APP BODY */
+.App-body {
+  display: flex;
+  flex-direction:  column;
+  margin: 3rem;
+  border: 2px shadow #808080ce;
+  min-height: 40vh;
+}
+.App-footer p{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-top: 2px solid rgb(255, 0, 0);
+  padding: 0.5rem;
+  font-style: italic;
+}

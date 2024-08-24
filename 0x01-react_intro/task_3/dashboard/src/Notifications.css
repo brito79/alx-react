@@ -1,0 +1,24 @@
+.Notifications {
+    padding: 1rem;
+    border: 2px dashed #c91818;
+}
+.default {
+    color: blue;
+}
+
+[data-priority="default"] {
+    color: blue;
+}
+[data-priority="urgent"] {
+    color: #c91818;
+}
+
+li:nth-child(3) {
+    color: crimson;
+}
+
+.App-body {
+    display: flex;
+    justify-content: row;
+}
+
