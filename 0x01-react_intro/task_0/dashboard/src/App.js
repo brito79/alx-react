@@ -9,9 +9,9 @@ export default function App() {
         <img src={logo} className="app-logo"  alt="logo" />
       </header>
 
-    <body className="App-body">
+    <div className="App-body">
       <p>Login to access the full dashboard</p>
-    </body>
+    </div>
     <footer className="App-footer">
       <p>Copyright 2020 - holberton School</p>
     </footer>
