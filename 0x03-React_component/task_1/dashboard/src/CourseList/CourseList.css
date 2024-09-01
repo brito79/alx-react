@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 th {
     border-bottom: 1px solid gray;
     margin: 0;
@@ -19,4 +20,17 @@ table {
 
 td {
     padding-left: 3px;
+=======
+table {
+  border-collapse: collapse;
+  border: 1px solid gray;
+  width: 100%;
+  margin-bottom: 60vh !important;
+  margin: 1rem;
+}
+
+thead, thead tr {
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+>>>>>>> 3b7f4a80dcf88677b3eaaf4a7a76a9e7afc5ad6b
 }

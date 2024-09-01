@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 :root {
     --holberton-red: #e1484c;
 }
@@ -18,3 +19,13 @@
     margin: auto auto auto 0;
     color: var(--holberton-red);
 }
+=======
+.App-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: #e2374c;
+  border-bottom: 4px solid #e2374c;
+  width: 100%;
+}
+>>>>>>> 3b7f4a80dcf88677b3eaaf4a7a76a9e7afc5ad6b

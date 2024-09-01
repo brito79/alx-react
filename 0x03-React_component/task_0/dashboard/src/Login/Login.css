@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 :root {
     --holberton-red: #e1484c;
 }
@@ -9,3 +10,23 @@
 .App-body input {
     margin: 0 16px 0 8px;
 }
+=======
+.App-login {
+  height: 60rem;
+  border-bottom: 4px solid #e2374c;
+  border-top: 4px solid #e2374c;
+}
+
+.App-login > p {
+  padding: 2rem;
+}
+
+.App-login label {
+  margin: 0 2rem 0 2rem;
+}
+
+.App-login button {
+  margin-left: 2rem;
+  margin-top: 2rem;
+}
+>>>>>>> 3b7f4a80dcf88677b3eaaf4a7a76a9e7afc5ad6b

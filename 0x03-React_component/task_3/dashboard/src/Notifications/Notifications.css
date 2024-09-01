@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .menuItem {
     position: absolute;
     top: 7px;
@@ -28,4 +29,27 @@ li[data-notification-type="default"] {
 
 li[data-notification-type="urgent"] {
 	color: var(--holberton-red);
+=======
+.Notifications {
+    float:right;
+    padding: 2rem;
+    border: 2px dashed #e2374c;
+}
+
+.menuItems {
+    display: flex;
+    justify-content: flex-end;
+}
+
+li[data-notification-type="default"] {
+    color: blue;
+}
+
+li[data-notification-type="urgent"] {
+    color: #e2374c;
+}
+
+.Notifications button {
+    float: right;
+>>>>>>> 3b7f4a80dcf88677b3eaaf4a7a76a9e7afc5ad6b
 }

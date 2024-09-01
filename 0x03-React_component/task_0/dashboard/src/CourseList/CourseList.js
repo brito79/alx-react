@@ -1,4 +1,5 @@
 import React from 'react';
+<<<<<<< HEAD
 import PropType from 'prop-types';
 import CourseShape from './CourseShape';
 import CourseListRow from './CourseListRow';
@@ -36,3 +37,25 @@ CourseList.propType = {
 };
 
 export default CourseList;
+=======
+import CourseListRow from './CourseListRow';
+import './CourseList.css';
+
+function CourseList() {
+    return (
+        <table id='CourseList'>
+            <thead>
+                <CourseListRow textFirstCell="Available courses" isHeader="true" />
+                <CourseListRow textFirstCell="Course name" textSecondCell="Credit" isHeader="true" />
+            </thead>
+            <tbody>
+                <CourseListRow textFirstCell="ES6" textSecondCell="60" isHeader="false" />
+                <CourseListRow textFirstCell="Webpack" textSecondCell="20" isHeader="false" />
+                <CourseListRow textFirstCell="React" textSecondCell="40" and isHeader="false" />
+            </tbody>
+        </table>
+    )
+}
+
+export default CourseList;
+>>>>>>> 3b7f4a80dcf88677b3eaaf4a7a76a9e7afc5ad6b

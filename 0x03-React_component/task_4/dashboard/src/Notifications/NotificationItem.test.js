@@ -1,5 +1,6 @@
 import React from 'react';
 import { shallow } from 'enzyme';
+<<<<<<< HEAD
 import NotificationItem from './NotificationItem';
 
 describe("Testing <NotificationItem />", () => {
@@ -21,3 +22,17 @@ describe("Testing <NotificationItem />", () => {
     expect(wrapper.find("li").html()).toBe("<li data-notification-type=\"default\"><u>test</u></li>");
   });
 });
+=======
+import sinon from 'sinon';
+import NotificationItems from './NotificationItem';
+
+describe('Notification item tests', () => {
+  it('test notification item on click', () => {
+    const onclick = jest.fn();
+    
+    const wrapper = shallow(<NotificationItems markAsRead={onclick} id='1' />);
+    wrapper.find('li').first().simulate('click');
+    expect(onclick).toBeCalled();
+  })
+})
+>>>>>>> 3b7f4a80dcf88677b3eaaf4a7a76a9e7afc5ad6b

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 :root {
     --holberton-red: #e1484c;
 }
@@ -12,4 +13,11 @@
     text-align: center;
     border-top: 3px solid var(--holberton-red);
     padding: 16px 0;
+=======
+.App-footer {
+  padding: 1rem;
+  text-align: center;
+  font-style: italic;
+  border-top: 4px solid #e2374c;
+>>>>>>> 3b7f4a80dcf88677b3eaaf4a7a76a9e7afc5ad6b
 }

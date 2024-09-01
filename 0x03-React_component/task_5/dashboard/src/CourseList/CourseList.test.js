@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React from "react";
 import { shallow, mount } from "enzyme";
 import CourseList from "./CourseList";
@@ -40,4 +41,18 @@ describe("Testing <CourseList listCourses={listCourses}/>", () => {
     expect(wrapper.findWhere((node)=>{return node.props().textFirstCell === "Webpack"})).toHaveLength(1);
     expect(wrapper.findWhere((node)=>{return node.props().textFirstCell === "React"})).toHaveLength(1);
   });
+=======
+import React from 'react';
+import { shallow } from 'enzyme';
+import CourseList from './CourseList';
+import CourseListRow from './CourseListRow';
+  
+it('renders properly', () => {
+  shallow(<CourseList />);
+});
+
+it('checking renders', () => {
+  const wrapper = shallow(<CourseList />);
+  expect(wrapper.find(CourseListRow)).toHaveLength(5);
+>>>>>>> 3b7f4a80dcf88677b3eaaf4a7a76a9e7afc5ad6b
 });

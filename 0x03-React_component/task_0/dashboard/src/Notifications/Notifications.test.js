@@ -1,6 +1,7 @@
 import React from 'react';
 import { shallow } from 'enzyme';
 import Notifications from './Notifications';
+<<<<<<< HEAD
 import { getLatestNotification } from '../utils/utils';
 
 describe("Testing the <Notifications /> Component", () => {
@@ -83,5 +84,25 @@ describe("Testing <Notification displayDrawer={true} listNotifications={[...]}/>
   it("verify that when you pass a list of notifications, the component renders it correctly and with the right number of NotificationItem", () => {
     expect(wrapper.find("NotificationItem")).toHaveLength(3);
     expect(wrapper.find("NotificationItem").first().props().value).toEqual('New course available');
+=======
+
+describe('Notifications', () => {
+  it('renders properly', () => {
+    shallow(<Notifications />);
+  });
+
+  it('checking render', () => {
+    const wrapper = shallow(<Notifications />);
+    const li = wrapper.find('div');
+    expect(wrapper.text()).toContain('Your notifications');
+});
+});
+
+describe('display drawer', () => {
+  it('display drawer is true', () => {
+    const wrapper = shallow(<Notifications displayDrawer='true'/>);
+    expect(wrapper.find('div.menuItems').exists()).toBeTruthy();
+    expect(wrapper.find('div.Notifications').exists()).toBeTruthy();
+>>>>>>> 3b7f4a80dcf88677b3eaaf4a7a76a9e7afc5ad6b
   });
 });
